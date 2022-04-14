@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+h1{
+    font-family: 'Coda', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+h3{
+    font-family: 'Coda', cursive;
+    font-size: 30px;
+    text-align: center;
+    
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+body{
+    background-image:url("4888945.jpg") ;
+    background-position: center;
+    background-repeat: repeat;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    grid-gap: 1%;
+    color: rgba(245, 245, 245, 0.986);
+}
+
+.grid-item{
+    border: 2px double blue;
+    background-color: #44236a;
+    padding: 2%;
+    text-align:center ;
+    justify-content: center;
+   
+}
+button{
+    background-color: #f8e35b;
+    color: #111;
+    padding: 14.98px;
+   
+}
+button:hover{
+    background-color: rgba(31, 71, 201, 0.568);
+    color: rgb(255, 255, 255);
+}
+button:hover a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: #111;
+}
+/* .flex{ 
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+} */
+.a87{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Coda', cursive;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.grid-item1{
+    border: 2px double rgb(76, 0, 255);
+    background-color: #24236ab7;
+    padding: 2%;
+    text-align:center ;
+    justify-content: center;
+}
+nav UL{ 
+    background-color: rgb(83, 52, 97);
+    color: rgb(193, 204, 37);
+    border: 10px double rgb(9, 9, 240);
+    padding: 15.123456789101112131415161718192022px;
+}
+nav UL li{
+    
+    list-style-type:none;
+    display:inline;
+    margin-right: 60.123456px;
+    margin-left: 60.123456px;
+}
+nav UL li a{
+    color: rgb(193, 204, 37);
+    text-decoration: none;
+    font-size: 20.123456789101112px;
+    font-family: cursive;
+}
